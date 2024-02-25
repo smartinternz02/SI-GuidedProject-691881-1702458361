@@ -1,0 +1,130 @@
+<DOCTYPE html>
+    <head>
+        <title>
+
+        </title>
+    </head>
+<body>
+
+    <style>
+    .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container2 {
+    font-size: 20px;
+    padding-top: 32px;
+}
+
+.btn {
+    margin-top: 30px;
+    font-size: 20px;
+    background-color: red;
+    border-radius: 15px;
+    height: 30px;
+    width: 100px;
+    border: 0px;
+
+}
+
+.para {
+    color: white;
+    font-size: 40px;
+    font-style: italic;
+    font-family: "Roboto";
+}
+
+.image-container {
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/foodmunch-banner-bg.png");
+}
+
+.slash {
+    font-weight: bold;
+}
+
+.InnerPage {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+}
+
+#chechStatus {
+    height: 100vh;
+    width: 100vw;
+}
+
+.InnerPage1 {
+    font-size: 20px;
+    padding-top: 32px;
+}
+
+.SP {
+    color: red;
+}
+
+.Amount {
+    font-size: 25px;
+    padding-left: 10px;
+}
+
+.Paragraph1 {
+    font-size: 15px;
+    color: white;
+    padding-left:500px;
+    padding-top: 60px;
+}
+
+.Paragraph {
+
+    color: white;
+    background-color: black;
+    height: 25vh;
+    width: 100vw;
+}
+ </style>
+
+
+
+
+<div id="chechStatus">
+        <div class="InnerPage">
+            <h1 class="Description">Inner Page</h1>
+            <div class="InnerPage1">
+                <a href="#Home"><span class="SP">Home</span></a><span class="slash">/</span>
+                <a herf="#">Inner page</a>
+            </div>
+        </div><br><br><br>
+        <h1 class="Amount">Amount of Vitamin ,fat...Presence in your food</h1>
+        <form action="/predict" method="post">
+    <label>Protein</label>
+    <input type="text" name="protein">
+    <label>Fat</label>
+    <input type="text" name="fat">
+    <label>Vitamin C</label>
+    <input type="text" name="vitamin_c">
+    <label>Fiber</label>
+    <input type="text" name="fiber">
+    <input type="submit" value="Submit">
+</form>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="Paragraph">
+            <pre class="Paragraph1">
+    @Copyright NutrGem All Rights Reserved
+          Designed by Nutri Gem
+        </pre>
+        </div>
+    </div>
+    </body>
+    </html>
